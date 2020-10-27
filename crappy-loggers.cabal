@@ -1,0 +1,41 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 165d1b0c3c1766ddb0eb996f744b8d9df71129e3878e5271d768543bdfc5fe00
+
+name:           crappy-loggers
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/t4ccer/crappy-loggers#readme>
+homepage:       https://github.com/t4ccer/crappy-loggers#readme
+bug-reports:    https://github.com/t4ccer/crappy-loggers/issues
+author:         t4ccer
+maintainer:     t4ccer@gmail.com
+copyright:      2020 t4ccer
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/t4ccer/crappy-loggers
+
+library
+  exposed-modules:
+      MyIOLogger
+      MyIOLoggerExamples
+      MyLogger
+      MyLoggerExamples
+  other-modules:
+      Paths_crappy_loggers
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.14.0 && <4.14.1
+    , mtl
+    , random
+    , transformers
+  default-language: Haskell2010

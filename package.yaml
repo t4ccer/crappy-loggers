@@ -1,0 +1,28 @@
+name:                crappy-loggers
+version:             0.1.0.0
+github:              "t4ccer/crappy-loggers"
+license:             BSD3
+author:              "t4ccer"
+maintainer:          "t4ccer@gmail.com"
+copyright:           "2020 t4ccer"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/t4ccer/crappy-loggers#readme>
+
+dependencies:
+- base >= 4.14.0 && < 4.14.1
+- transformers
+- mtl
+- random
+
+library:
+  source-dirs: src
