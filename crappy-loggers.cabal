@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 165d1b0c3c1766ddb0eb996f744b8d9df71129e3878e5271d768543bdfc5fe00
+-- hash: 2720c09d1925c2a6cd2cdb9b5fc21bdfd94223df1fef75bd6e547b174a8fa222
 
 name:           crappy-loggers
 version:        0.1.0.0
@@ -29,12 +29,14 @@ library
       MyIOLoggerExamples
       MyLogger
       MyLoggerExamples
+      RIOLogger
   other-modules:
       Paths_crappy_loggers
   hs-source-dirs:
       src
   build-depends:
       base >=4.14.0 && <4.14.1
+    , containers
     , mtl
     , random
     , transformers

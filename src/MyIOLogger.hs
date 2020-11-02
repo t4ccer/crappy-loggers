@@ -2,8 +2,6 @@
 
 module MyIOLogger where
 
-import           Control.Exception
-import           Control.Monad.Trans.Maybe
 import           Control.Monad.Writer.Lazy
 import           MyLogger
 

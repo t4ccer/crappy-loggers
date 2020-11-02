@@ -20,6 +20,7 @@ description:         Please see the README on GitHub at <https://github.com/t4cc
 
 dependencies:
 - base >= 4.14.0 && < 4.14.1
+- containers
 - transformers
 - mtl
 - random
